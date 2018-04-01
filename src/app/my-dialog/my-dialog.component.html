@@ -1,0 +1,15 @@
+<div>
+  <h2 mat-dialog-title>My dialog</h2>
+  <hr>
+  <mat-dialog-content>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta aperiam omnis enim illo porro perspiciatis nisi. Vitae, ipsa dolores iure autem beatae reiciendis commodi impedit quisquam? At labore error iusto!
+    <br>
+    <br>
+    <strong>{{ data }}</strong>
+  </mat-dialog-content>
+
+  <mat-dialog-actions>
+    <button mat-raised-button (click)="onCloseConfirm()">Confirm</button>
+    <button mat-raised-button (click)="onCloseCancel()">Cancel</button>
+  </mat-dialog-actions>
+</div>
