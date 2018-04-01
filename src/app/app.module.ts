@@ -8,10 +8,11 @@ import { AppComponent } from './app.component';
 import { MyFormComponent } from './my-form/my-form.component';
 
 import { MatInputModule, MatButtonModule, MatFormFieldModule, 
-  MatDialogModule, MatCardModule, MatTooltipModule } from '@angular/material';
+  MatDialogModule, MatCardModule, MatTooltipModule, MatSnackBarModule } from '@angular/material';
 import { DialogDemoComponent } from './dialog-demo/dialog-demo.component';
 import { MyDialogComponent } from './my-dialog/my-dialog.component';
 import { TooltipDemoComponent } from './tooltip-demo/tooltip-demo.component';
+import { SnackbarDemoComponent } from './snackbar-demo/snackbar-demo.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TooltipDemoComponent } from './tooltip-demo/tooltip-demo.component';
     MyFormComponent,
     DialogDemoComponent,
     MyDialogComponent,
-    TooltipDemoComponent
+    TooltipDemoComponent,
+    SnackbarDemoComponent
   ],
   imports: [
     BrowserModule,
@@ -30,6 +32,7 @@ import { TooltipDemoComponent } from './tooltip-demo/tooltip-demo.component';
     MatDialogModule,
     MatCardModule,
     MatTooltipModule,
+    MatSnackBarModule,
     FormsModule
   ],
   entryComponents: [
